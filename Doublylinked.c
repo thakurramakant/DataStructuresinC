@@ -42,7 +42,7 @@ struct node * addtobegin(struct node *head,int data){
     return head;
 }
 
-// Insertimg after the value //
+// Inserting after the value //
 struct node * addtovalue(struct node *head,int data,int value){
     struct node *temp = (struct node*)malloc(sizeof(struct node));
     struct node *ptr=head;
